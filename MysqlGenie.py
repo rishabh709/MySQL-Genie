@@ -297,7 +297,6 @@ mycon.close()
 
 
 # ~ --------------------------------------------------------------------
-import maskpass
 import os
 xx = os.popen("pip list")
 xx = xx.read()
@@ -309,6 +308,7 @@ clean_screen()
 
 
 
+import maskpass
 import mysql.connector
 # ~ mycon = mysql.connector.connect(host="localhost", user="root",passwd="root")
 try:
